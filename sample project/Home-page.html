@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+    <style>
+        #maincontainer {
+            border: 1px solid red;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .content div {
+            flex: 1;
+            background-color: brown;
+            height: 400px;
+        }
+
+        .mc {
+            flex: 2 !important;
+            background-color: darkblue !important;
+        }
+        .menu li {
+            flex:1;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="maincontainer">
+        <div style="display: flex;">
+             <div style="flex:1">
+                <img src="../home.jpg" alt="AIT">
+            </div>
+            <div style="flex:2">
+                <ul style="display: flex;" class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div>
+                <img src="../cristiano-ronaldo.jpg" alt="no image" width=100%>
+            </div>
+            <div class="content">
+                <div>LS</div>
+                <div class="mc">Main Content</div>
+                <div>RS</div>
+            </div>
+            <div>
+                <h1>Footer</h1>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
